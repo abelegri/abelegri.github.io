@@ -19,12 +19,14 @@ header img {
 }
 
 header h1 {
+  font-family: 'Muli', sans-serif;
   color: #000000;
   font-weight: 200;
   margin: 0;
 }
 
 header nav li{
+  font-family: 'Montserrat';
   display: inline;
   margin: 0;
   padding: 0 10px;
@@ -32,16 +34,24 @@ header nav li{
 }
 
 header nav ul {
+  font-family: 'Montserrat';
   display: inline;
+}
+
+section h2 {
+  font-family: 'Muli', sans-serif;
+  color: #000000;
+  font-weight: 300;
+  font-size: 40px;
 }
 
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("jumbotron.png");
+  background-image: url("jumbo2.svg");
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 450px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -52,48 +62,24 @@ header nav ul {
   color: #fff;
 }
 
+.jumbotron p {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  padding: 20px 75px;
+  color: #666666;
+}
+
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff;
+  color: #333;
 }
 
-section .row img {
-  margin: 0 0 30px;
-  width: 100%;
+section h3 {
+  color: #333333;
 }
 
-section .row p {
-  font-family: 'Montserrat';
-  align-items: center;
-  font-size: 30px;
-  color: #000;
-}
-
-.col-md-6 {
-  margin: 0 0 30px;
-}
-
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
-}
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
 
 footer {
-  font-family: 'Montserrat';
   font-size: 12px;
   padding: 20px 0;
 }
@@ -111,10 +97,3 @@ footer li img {
   width: 32px;
   height: 32px;
 }
-
-
-
-
-
-
-
