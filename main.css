@@ -15,11 +15,13 @@ footer .row {
 }
 
 header img {
+  max-height: 50px;
+  max-width: 50px;
   margin: 0 20px 0 20px;
 }
 
 header h1 {
-  color: #000000;
+  color: #da8987;
   font-weight: 200;
   margin: 0;
 }
@@ -35,24 +37,36 @@ header nav ul {
   display: inline;
 }
 
-.jumbotron {
+header a:link {
+  color: #819595;
+}
+
+header a:visited {
+  color: #696773;
+}
+
+header a:hover {
+  color: #363946;
+}
+
+#jumbo1 {
   display: flex;
   align-items: center;
-  background-image: url("jumbotron.png");
+  background-image: url("jumbo.jpg");
   background-size: cover;
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.jumbotron h2 {
+#jumbo1 h2 {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
   color: #fff;
 }
 
-.jumbotron h3 {
+#jumbo1 h3 {
   margin: 0 0 20px;
   color: #fff;
 }
@@ -62,34 +76,82 @@ section .row img {
   width: 100%;
 }
 
-section .row p {
+section .row a {
   font-family: 'Montserrat';
   align-items: center;
   font-size: 30px;
-  color: #000;
+}
+
+section .row a:link {
+  color: #819595;
+}
+
+section .row a:visited {
+  color: #696773;
+}
+
+section .row a:hover {
+  color: #363946;
 }
 
 .col-md-6 {
   margin: 0 0 30px;
 }
 
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
+
+#about {
+  display: flex;
+  align-items: center;
+  background-image: url("grad.png");
+  background-size: cover;
+  color: #da8987;
+  height: 750px;
 }
 
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
+#about h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  padding: 20px;
+  color: #da8987;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
+#about p {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  padding: 20px 75px;
+  color: #000000;
+}
+
+#about h3 {
+  margin: 10px;
+  padding: 30px 225px;
+  color: #363946;
+}
+
+#contact header {
+  font-family: 'Muli', sans-serif;
+  color: #da8987;
+  font-size: 50px;
+}
+
+#contact a {
+  font-family: 'Montserrat';
+  font-size: 25px;
+  padding: 10px;
+}
+
+#contact a:link {
+  color: #819595;
+}
+
+#contact a:visited {
+  color: #696773;
+}
+
+#contact a:hover {
+  color: #363946;
 }
 
 footer {
@@ -103,6 +165,10 @@ footer .col-sm-8 {
   justify-content: flex-end;
 }
 
+footer p {
+  color: #819595;
+  font-size: 12px;
+}
 footer ul {
   list-style: none;
 }
@@ -111,10 +177,4 @@ footer li img {
   width: 32px;
   height: 32px;
 }
-
-
-
-
-
-
 
