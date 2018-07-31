@@ -52,7 +52,7 @@ header a:hover {
 #jumbo1 {
   display: flex;
   align-items: center;
-  background-image: url("jumbo.jpg");
+  background-image: url("cloud6.jpg");
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -102,7 +102,7 @@ section .row a:hover {
 #about {
   display: flex;
   align-items: center;
-  background-image: url("grad.png");
+  background-image: url("cloud5.jpg");
   background-size: cover;
   color: #da8987;
   height: 750px;
@@ -152,6 +152,30 @@ section .row a:hover {
 
 #contact a:hover {
   color: #363946;
+}
+
+#text h1 {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  color: #abd6d6;
+}
+
+#text h2 {
+  font-family: 'Montserrat';
+  font-weight: 1000;
+  font-size: 25px;
+  color: #abd6d6;
+}
+
+#text h3 {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-size: 20px;
+  color: #abd6d6;
+}
+
+#text p {
+  color: #abd6d6;
 }
 
 footer {
