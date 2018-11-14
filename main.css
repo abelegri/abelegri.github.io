@@ -88,7 +88,7 @@ section .row a:hover {
 }
 
 
-#links button {
+#links a.button {
 	font-family: 'Raleway', sans-serif;
 	color: #0F1626;
   	font-size: 20px;
@@ -103,8 +103,9 @@ section .row a:hover {
 	display: inline-block;
 }
 
-#links button:hover {
+#links a.button:hover {
 	background-color: #C1B49E;
+	text-decoration-line: none;
 	border: none;
 	display: inline-block;
 }
@@ -114,6 +115,7 @@ section .row a:hover {
   font-weight: bold;
   color: #4281A4;
   font-size: 40px;
+  padding-top: 80px;
 }
 
 #contact a {
@@ -170,7 +172,7 @@ footer .col-sm-8 {
 }
 
 footer p {
-  color: #819595;
+  color: #868686;
   font-size: 12px;
 }
 footer ul {
