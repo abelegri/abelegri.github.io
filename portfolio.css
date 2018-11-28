@@ -73,12 +73,12 @@ section .row img {
   /*text-shadow: 1px 1px 1px #F5F5F5;*/
 }
 
-#about p {
+#content p {
   font-size: 20px;
   padding: 20px 20px;
   color: #F5F5F5;
 }
 
-#about img {
+#content img {
   padding: 20px 20px;
 }
