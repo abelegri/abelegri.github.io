@@ -53,10 +53,11 @@ section .row img {
   font-size: 40px;
   font-weight: 700;
   margin: 0;
+  padding-bottom: 60px;
   color: #4281A4;
 }
 
-#content {
+section .row {
   display: flex;
   align-items: center;
   background-image: ;
@@ -65,7 +66,7 @@ section .row img {
   height: 300px;
 }
 
-#content h3 {
+section .row h3 {
   font-size: 30px;
   font-weight: 450;
   margin: 0;
@@ -73,12 +74,17 @@ section .row img {
   /*text-shadow: 1px 1px 1px #F5F5F5;*/
 }
 
-#content p {
+section .row p {
   font-size: 20px;
   padding: 20px 20px;
   color: #F5F5F5;
 }
 
-#content img {
+section .row a {
+  color: #4281A4;
+  font-weight: bold;
+}
+
+section .row img {
   padding: 20px 20px;
 }
