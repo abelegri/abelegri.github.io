@@ -63,7 +63,7 @@ section .row {
   background-image: ;
   background-size: cover;
   color: #F5F5F5;
-  height: 300px;
+  padding-bottom: 40px;
 }
 
 section .row h3 {
